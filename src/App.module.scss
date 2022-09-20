@@ -1,0 +1,29 @@
+.container{
+    h1{
+        color:#D57A19 ;
+        padding: 20px;
+    }
+    .rootContainer{
+        width: 230px;
+        display: flex;
+        margin-right: 10px;
+        justify-content: space-evenly;
+        
+        a{
+            border: 1px solid #D57A19;
+            padding: 5px 20px;
+            border-radius: 5px;
+            color: burlywood;
+            text-decoration: none;
+        }
+        a:hover{
+            border: 1px solid aquamarine;
+        }
+    }
+    .line{
+        border-bottom: 1px solid #000;
+        padding: 20px 0;
+    }
+
+
+}

@@ -1,0 +1,30 @@
+.booksContainer{
+    border-left: 1px solid #000;
+    padding: 1.8rem .5rem;  
+    width: 350px;
+    input{
+        border: none;
+        margin-right: 13px;
+        width: 90%;
+        border-radius: 5px;
+        height: 40px;
+        padding: 10px;
+        background-color: gray;
+        color: #000;
+        outline: none;
+
+        &::placeholder{
+            color: rgb(53, 43, 4);
+        }
+    }
+
+    .booksName{
+        display: block; 
+        margin: 1rem;
+        text-decoration: none;
+
+        &:hover{
+            color: aquamarine !important;
+        }
+    }
+}

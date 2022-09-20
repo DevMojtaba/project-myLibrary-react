@@ -1,0 +1,27 @@
+.bookContainer{
+    padding:1.5rem 2rem;
+
+    h3, h4 , h5{
+        color: burlywood ;
+    }
+    h4, button{
+        margin: 1rem 0;
+    }
+    
+    span{
+        color: aquamarine;
+        padding: 0 .7rem;
+    }
+
+    button{
+        padding:5px 20px;
+        border: none;
+        color: #000;
+        background-color: gray;
+        border-radius: 5px;
+    }
+}
+.notFound{
+    color: aquamarine;
+    padding: 2rem;
+}
